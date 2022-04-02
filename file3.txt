@@ -1,1 +1,42 @@
 opens
+[33mcommit ebb26431ddb713dd929bb143bb8976ec82efe740[m[33m ([m[1;36mHEAD -> [m[1;32mtest[m[33m)[m
+Author: yeonjep <yeonje1004@naver.com>
+Date:   Sat Apr 2 04:48:30 2022 -0700
+
+    create file3.txt
+
+[33mcommit 5b0c27e9afed5d912bf2268cd30a5b6f27f4cffe[m[33m ([m[1;31morigin/test[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: yeonjep <102338804+yeonjep@users.noreply.github.com>
+Date:   Sat Apr 2 18:05:18 2022 +0900
+
+    update new_file
+
+[33mcommit 130af8f8d49afed5b8fb89512eeee25448cdf048[m
+Author: yeonjep <yeonje1004@naver.com>
+Date:   Sat Apr 2 01:57:46 2022 -0700
+
+    my first update
+
+[33mcommit 98a6cf553b3b7ac969a48d28ca51fa5bd0514350[m
+Author: yeonjep <yeonje1004@naver.com>
+Date:   Sat Apr 2 01:15:46 2022 -0700
+
+    create file2
+
+[33mcommit d418d44c117a0565198359e8167a2387e162977c[m[33m ([m[1;31morigin/yj_21[m[33m)[m
+Author: yeonjep <yeonje1004@naver.com>
+Date:   Mon Mar 28 22:16:22 2022 -0700
+
+    new file added
+
+[33mcommit 5582a59ca66dd7ba7d8c1796111609f3647b21cd[m
+Author: yeonjep <yeonje1004@naver.com>
+Date:   Sat Mar 26 05:31:50 2022 -0700
+
+    new file added
+
+[33mcommit b48535453fe45f2864fa7f61866dacc8e27196e3[m
+Author: yeonjep <102338804+yeonjep@users.noreply.github.com>
+Date:   Sat Mar 26 20:58:25 2022 +0900
+
+    Initial commit
