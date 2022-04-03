@@ -1,12 +1,17 @@
 #!/bin/bash
 
+declare -a arr
+
 while read line; do
-	num1=$line
+	arr[0]=$line
 done < num1.txt
 
 while read line; do
-	num2=$line
+	arr[1]=$line
 done<num2.txt
+
+
+
 
 if [[ -z "$1" ]]
 then
@@ -59,28 +64,28 @@ fi
 
 if [ "$val2" = "1" ]
  then
-	output=$(($num1 + $num2))
+	output=$(($arr[0] + $arr[1]))
 
 fi
 if [ "$val2" = "2" ]
  then
-	output=$(($num1 - $num2))
+	output=$(($arr[0] - $arr[1]))
 
 fi
 
 if [ "$val2" = "3" ]
  then
-	output=$(($num1 / $num2))
+	output=$(($arr[0] / $arr[1]))
 fi
 
 if [ "$val2" = "4" ]
 then
-	output=$(($num1 * $num2))
+	output=$(($arr[0] * $arr[1]))
 fi
 
 echo
-echo "num1 : $num1"
-echo "num2 : $num2"
+echo "num1 : $arr[0]"
+echo "num2 : $arr[1]"
 echo "op : $val"
 echo "output : $output"
 
