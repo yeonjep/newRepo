@@ -3,7 +3,7 @@ import sys
 
 textfile=open('textfile.txt','r')
 
-dic={}
+diction={}
 
 
 lines=textfile.readlines()
@@ -15,12 +15,12 @@ for i in range (len(lines)) :
       it.lower()
 
       if it in dic:
-         dic[it]+=1
+         diction[it]+=1
       else:
-         dic[it]=1
+         diction[it]=1
 
 
-for i,j in dic.items():
+for i,j in diction.items():
 
 
   # print(i,j)
