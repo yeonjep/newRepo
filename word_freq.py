@@ -23,5 +23,5 @@ for i in range (len(lines)) :
 for i,j in dic.items():
 
   # print(i,j)
-#sorted(j,reverse=True)
+  sorted(j,reverse=True)
 00
