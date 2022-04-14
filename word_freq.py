@@ -8,9 +8,9 @@ diction={}
 
 lines=textfile.readlines()
 
-for i in range (len(lines)) :
+for x in range (len(lines)) :
 
-   word=lines[i].split()
+   word=lines[x].split()
    for it in word:
       it.lower()
 
@@ -20,9 +20,9 @@ for i in range (len(lines)) :
          diction[it]=1
 
 
-for i,j in diction.items():
+for x,y in diction.items():
 
 
-  # print(i,j)
-  sorted(j,reverse=True)
+  # print(x,y)
+  sorted(y,reverse=True)
 00
