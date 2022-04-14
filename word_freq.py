@@ -23,6 +23,6 @@ for x in range (len(lines)) :
 for x,y in diction.items():
 
 
-  # print(x,y)
-  sorted(y,reverse=True)
+   print(x,y)
+ # sorted(y,reverse=True)
 00
