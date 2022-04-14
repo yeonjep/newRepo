@@ -14,7 +14,7 @@ for x in range (len(lines)) :
    for it in word:
       it.lower()
 
-      if it in dic:
+      if it in diction:
          diction[it]+=1
       else:
          diction[it]=1
