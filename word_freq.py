@@ -15,7 +15,7 @@ for i in range (len(lines)) :
       it.lower()
 
       if it in dic:
-         dic[it]+=1
+         dic[it]=dic[it]+1
       else:
          dic[it]=1
 
